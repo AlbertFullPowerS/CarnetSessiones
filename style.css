@@ -13,7 +13,7 @@
   {
     color: var(--color-claro-blanco);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -22,7 +22,7 @@
   .txt-2-gray{
     color: var(--color-claro-gris);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -32,7 +32,7 @@
   {
     color: var(--color-claro-blanco);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -41,7 +41,7 @@
   .txt-3-blue{
     color: var(--color-utez-azul);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -51,7 +51,7 @@
   {
     color: var(--color-utez-verde);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -61,7 +61,7 @@
   {
     color: var(--color-utez-azul);
     text-align: center;
-    font-family: Asap Condensed;
+    font-family: 'Asap Condensed', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
