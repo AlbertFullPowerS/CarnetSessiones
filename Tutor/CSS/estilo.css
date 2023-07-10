@@ -1,0 +1,107 @@
+*{
+    margin :0 ; 
+    Padding:0;
+}
+
+head{
+    color: var(--color-utez-verde);
+    width: 1280rem;
+    height: 832rem;
+    background: #FFF;
+}
+
+.contenedor{
+    width: 1020px;
+    height: 280px;
+    flex-shrink: 0;
+    margin:0;
+    text-align: center;
+    background: var(--utezazul, #0D3464);
+}
+
+.salir{
+    float: right; /* Mandar el div a la izquierda o derecha */
+    width: 77px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 0; /* Atributo para bajar o subir el contenido */
+}
+
+p{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Asap Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.utez{
+    position:absolute;
+    width: 77.602px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
+
+.panprinci{
+    align-content: center;
+    align-items: center;
+    width: 622px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%,
+    rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 
+    0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 
+    0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / 
+    cover no-repeat;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);*/
+}
+
+.titulo{
+    display: flex;
+    width: 341px;
+    height: 44px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Asap Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.opciones{
+    float: center;
+    text-align: center;
+    position:absolute; /*Sirve para mandar al frente el div*/
+    width: 229px;
+    height: 96px;
+    flex-shrink: 0;
+    margin-top: -15px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.icoestu{
+    width: 49px;
+height: 49px;
+text-align: center;
+flex-shrink: 0;
+margin-top: 0;
+/*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
