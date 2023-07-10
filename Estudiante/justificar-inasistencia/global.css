@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --android-subtitle-2: "Balsamiq Sans";
+  --font-inter: Inter;  
+  --font-asap-condensed: "Asap Condensed";
+
+  /* font sizes */
+  --android-subtitle-2-size: 1.38rem;
+  --font-size-base: 1.5rem;
+
+  /* Colors */
+  --white: #fff;
+  --verde-utez: #14ac8c;
+  --textoclaro: #727272;
+  --utez-azul: #0d3464;
+
+  /* Paddings */
+  --padding-xs: .15rem;
+
+  /* border radiuses */
+  --br-xl: 1.25rem;
+}

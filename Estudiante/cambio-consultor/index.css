@@ -1,0 +1,212 @@
+body {
+  width: 100%;
+  background-color: var(--utez-azul);
+}
+.inicio-sesin-admi-uusuarios-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--utez-azul);
+  width: 100%;
+  height: 84rem;
+}
+button.salir {
+  position:absolute;
+  overflow: hidden;
+  margin-left: 41rem;
+  margin-top: 2.8rem;
+  background-color: transparent;
+  padding: .9rem 2rem;
+  border-color: var(--white);
+  border-radius: var(--br-xl);
+  font-family: var(--font-size-base);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: transparent;
+}
+.salir:hover {
+  background-color: white;
+  color: var(--utez-azul);
+  border-color: var(--white);
+  border-style:inset;
+  cursor: pointer;
+}
+.inicio-sesin-admi-uusuarios-item {
+  position: absolute;
+  top: 9rem;
+  left: 18rem;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 42.38rem;
+}
+.inicio {
+  position: absolute;
+  top: 28rem;
+  left: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: .9rem 2rem;
+  border-color: var(--white);
+  border-radius: var(--br-xl);
+  font-family: var(--font-size-base);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: transparent;
+}
+.inicio:hover {
+  background-color: white;
+  color: var(--utez-azul);
+  border-color: var(--white);
+  border-style:inset;
+  cursor: pointer;
+}
+.cambio-de-consultor {
+  position: absolute;
+  top: 14.69rem;
+  right: 38rem;
+  font-size: 2.5rem;
+  color: var(--verde-utez);
+  display: inline-block;
+  width: 29.75rem;
+  height: 2.5rem;
+}
+.logo {
+  position: absolute;
+  margin-top: 2rem;
+  left: 2.38rem;
+  width: 7.19rem;
+  height: 4.63rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 36.1rem;
+  height: 3.04rem;
+}
+.icon,
+.icon1,
+.image-25-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image-25-icon {
+  top: 0.31rem;
+  left: 25.56rem;
+  width: 2.44rem;
+  height: 2.44rem;
+  cursor: pointer;
+}
+.icon,
+.icon1 {
+  top: 0.78rem;
+  left: 17.15rem;
+  width: 1.86rem;
+  height: 1.86rem;
+}
+.icon1 {
+  left: 8.72rem;
+  cursor: pointer;
+}
+.vector-parent {
+  position: absolute;
+  top: 2.5rem;
+  left: 35rem;
+  width: 36.11rem;
+  height: 3.04rem;
+}
+.inicio-sesin-admi-uusuarios-inner {
+  position: absolute;
+  top: 26.69rem;
+  left: 40rem;
+  border-radius: 50px;
+  width: 44.81rem;
+  height: 6.88rem;
+}
+.dentro-del-siguiente {
+  position: absolute;
+  top: 0;
+  left: 8rem;
+  font-weight: 600;
+  display: inline-flex;
+  width: 60rem;
+  height: 1.06rem;
+}
+.dentro-del-siguiente-recuadro-wrapper {
+  position: absolute;
+  top: 22.63rem;
+  left: 27.31rem;
+  width: 35.31rem;
+  height: 1.06rem;
+  text-align: left;
+  color: var(--textoclaro);
+}
+.button {
+  position: relative;
+  line-height: 1.5rem;
+}
+.enviar2 {
+  position: absolute;
+  top: 0.31rem;
+  left: 0.75rem;
+  line-height: 1.5rem;
+  text-align: center;
+  display: inline-block;
+  width: 4.88rem;
+  height: 1.44rem;
+}
+.enviar-parent,
+.fab-extended-parent {
+  position: absolute;
+  height: 2.06rem;
+  cursor: pointer;
+  margin-left: 12.6rem;
+}
+.inicio-sesin-admi-uusuarios {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 52rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.mensaje {
+  margin-top: 4rem;
+  align-items: start;
+  margin-top: 5.5rem;
+  margin-left: 7.9rem;
+  border-radius: var(--br-xl);
+  padding: 1rem;
+  font-family: var(--textoclaro);
+}
+.enviar {
+  margin-top: 3rem;
+  margin-left: 61rem;
+  background-color: transparent;
+  padding: .9rem 2rem;
+  border-color: var(--verde-utez);
+  border-radius: var(--br-xl);
+  font-family: var(--font-size-base);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--verde-utez);
+  border-style: none;
+}
+.enviar:hover {
+  background-color: transparent;
+  color: var(--verde-utez);
+  border-color: var(--verde-utez);
+  border-style:inset;
+  cursor: pointer;
+}
