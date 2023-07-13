@@ -1,0 +1,149 @@
+
+*{
+    background-color: var(--color-utez-azul);
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 150px;
+    height: 75px;
+    float: left;
+    padding-right: 25px;
+}
+
+#d1{
+    background-color: var(--color-claro-blanco);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+}
+
+#d2{
+    display: flex;
+    margin-left: 1260px;
+}
+
+#d3{
+    padding-top: 250px;
+    padding-left: 50px;
+    float: left;
+}
+
+#d4{
+    background-color: var(--color-claro-blanco);
+    width: 1210px;
+    height: 700px;
+    margin-left: 220px;
+    border-radius: 20px;
+}
+
+#b1{
+    width: 90px;
+    height: 33px;
+    float: right;
+    border-radius: 20px;
+    border-color: var(--color-claro-blanco);
+}
+
+#b2{
+    width: 100px;
+    height: 33px;
+    border-radius: 20px;
+    border-color: var(--color-claro-blanco);
+}
+
+p1{
+    color: var(--color-claro-blanco);
+}
+
+
+/* Encabezados */
+
+p{
+    font-size: 20px;  
+    background-color: var(--color-claro-blanco);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+}
+
+#di1{
+    display: flex;
+    margin-left: 120px;
+    width: 160px;
+    height: 25px;
+    background-color: var(--color-claro-blanco);
+    float: left;
+}
+
+#di2{
+    display: flex;
+    padding-left: 50px;
+    width: 180px;
+    height: 25px;
+    background-color: var(--color-claro-blanco);
+    float: left;
+}
+
+#di3{
+    display: flex;
+    padding-left: 50px;
+    width: 90px;
+    height: 25px;
+    background-color: var(--color-claro-blanco);
+    float: left;
+}
+
+#di4{
+    display: flex;
+    padding-left: 50px;
+    width: 160px;
+    height: 25px;
+    background-color: var(--color-claro-blanco);
+    float: left;
+}
+
+#di5{
+    display: flex;
+    padding-left: 10px;
+    width: 120px;
+    height: 25px;
+    background-color: var(--color-claro-blanco);
+}
+
+
+/* Cuadros de texto */
+
+#c1{
+    display: flex;
+    margin-left: 60px;
+    width: 960px;
+    height: 30px;
+    float: left;
+    border-color: var(--color-utez-azul);
+    background-color: var(--color-claro-blanco);
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+#c11{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: var(--color-claro-blanco);
+}
+
+#bo1{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: var(--color-utez-verde);
+    border: 1px;
+    justify-content: center;
+    margin-left: 40px;
+}
