@@ -1,0 +1,140 @@
+@font-face
+{
+	font-family: "Asap Condensed";
+	src: url('fonts/AsapCondensed-SemiBold.ttf') format('truetype');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--color-utez-azul);
+}
+.content-body
+{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.flex-end
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    margin: 1rem;
+}
+.text-header{
+    margin-top: 3rem;
+    color: var(--color-utez-verde-claro);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.img-u
+{
+    width: 5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.navegation {
+    display: flex;
+    width: 20rem;
+    height: 1.5rem;
+    background-color: var(--color-claro-blanco);
+    justify-content: space-evenly;
+    padding-top: .7rem;
+    border-radius: 1rem;
+}
+.nav {
+    cursor: pointer;
+}
+.btn-blue{
+    margin-top: .5rem;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: var(--color-claro-blanco);
+    border-style:ridge;
+    border-radius: 1rem;
+    color: var(--color-claro-blanco);
+    cursor: pointer;
+}
+.btn-blue:hover {
+    background-color: var(--color-claro-blanco);
+    color: var(--color-utez-azul);
+    border-style: none;
+}
+.content
+{
+    height: 65vh;
+    width: 100%;
+    margin: 4% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boton {
+    margin-left: 1rem;
+    margin: 10rem auto;
+}
+.fondo
+{
+    background-color: var(--color-claro-blanco);
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+   position: relative;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+   border-radius: 1rem 0 0 1rem;
+}
+
+.icon{
+    width: 1rem;
+    height: 1rem;
+
+}
+
+.text-info {
+    font-size: .8rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 50vw;
+    text-align: left;
+}
+.just::placeholder {
+    font-weight: 300;
+}
+.just {
+    width: 60vw;
+    height: 8vh;
+    padding: 0.8rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);   
+}
+.submit {
+    width: 72vw;
+    text-align: right;
+    margin-top: 1rem;
+}
+.btn-green{
+    margin-top: .5rem;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: var(--color-utez-verde-claro);
+    border-style:none;
+    border-radius: 1rem;
+    color: var(--color-claro-blanco);
+    cursor: pointer;
+    text-transform:uppercase;
+}
+.btn-green:hover {
+    background-color: var(--color-claro-blanco);
+    color: var(--color-utez-verde-claro);
+    border-style: ridge;
+    border-color: var(--color-utez-verde-claro);
+}

@@ -34,7 +34,7 @@
 {
     width: 5rem;
     height: 2.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 .btn-blue{
     width: 3rem;
@@ -44,6 +44,12 @@
     border-style:ridge;
     border-radius: 1rem;
     color: var(--color-claro-blanco);
+    cursor: pointer;
+}
+.btn-blue:hover {
+    background-color: var(--color-claro-blanco);
+    color: var(--color-utez-azul);
+    border-style: none;
 }
 .content
 {
@@ -89,13 +95,35 @@
     text-align: center;
     border-radius: 1rem 1rem 0 0;
     position: relative;
-    padding: 1rem .3rem .5rem .3rem;
+    padding: .5rem .3rem;
+    width: 15vw;
+    height: 13vh;
+    cursor: pointer;
 }
 
 .icon{
     width: 1rem;
     height: 1rem;
+
 }
 .sl {
     font-size: .5rem;
+    padding: .2rem 1rem .2rem 1rem;
+}
+
+.btn-white{
+    width: 3rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: var(--color-utez-azul);
+    border-style:ridge;
+    border-radius: 1rem;
+    color: var(--color-utez-azulo);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.btn-white:hover {
+    background-color: var(--color-utez-azul);
+    color: var(--color-claro-blanco);
+    border-style: none;
 }
