@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-asap-condensed: "Asap Condensed";
+  
+    /* font sizes */
+    --font-size-base: 1rem;
+    --font-size-xs: 0.75rem;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: #939393;
+    --verde-utez: #14ac8c;
+    --utez-azul: #0d3464;
+  
+    /* border radiuses */
+    --br-xl: 20px;
+  }
