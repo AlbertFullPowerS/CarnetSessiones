@@ -1,0 +1,114 @@
+*{
+    margin :0 ; 
+    Padding:0; /* Abarque toda la pantalla */
+}
+
+.contenedor{
+    width: 38.9rem;
+    height: 17.8rem;
+    background: var(--color-utez-azul);
+    margin: 0;
+}
+
+#inicio{
+    padding-left: 1.2rem;
+}
+
+button{
+    background-color: transparent;
+    margin-top: 10.3rem;
+    border-radius: 20rem; /*Pendiente en actualizar*/
+    height: 1.2rem;
+    width: 3.5rem;
+    stroke-width: 1rem;
+    stroke: var(--color-claro-blanco);
+}
+
+#I{
+    color: var(--color-claro-blanco);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 3.2rem;
+    height: 1rem;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.utez{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    position:absolute;
+    width: 3rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 2rem;   
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
+
+#barraInfo{
+    width: 30rem;
+    height: 15.6rem;
+    border-radius: 0.4rem;
+    background-color: var(--color-claro-blanco);
+    padding: 0.1rem;
+    padding-left: -5rem;
+    float: right; /* Mandar el div a la izquierda o derecha */
+    margin-top: -10.4rem;
+}
+
+.nom{
+    color: var(--color-utez-azul);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.ape{
+    color: var(--color-utez-azul);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+    margin-left: 6.7rem;
+    margin-top: -1.1rem;
+}
+
+.consu{
+    color: var(--color-utez-azul);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+    margin-top: -1.1rem;
+    margin-left: 11.2rem;
+}
+
+.place{
+    color: var(--color-utez-azul);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+    margin-top: -1.1rem;
+    margin-left: 18.3rem;
+}
+
+.asis{
+    color: var(--color-utez-azul);
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+    margin-top: -1.1rem;
+    margin-left: 24.3rem;
+}
+
+/* BOTÓN DE SALIR */
