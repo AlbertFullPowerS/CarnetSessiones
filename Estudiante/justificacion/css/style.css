@@ -2,7 +2,7 @@
 @font-face
 {
 	font-family: "Asap Condensed";
-	src: url('fonts/AsapCondensed-SemiBold.ttf') format('truetype');
+	src: url('../fonts/AsapCondensed-SemiBold.ttf') format('truetype');
 }
 :root {
     --color-utez-azul: #0D3464;
