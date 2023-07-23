@@ -89,6 +89,11 @@ body {
     border-radius: 1rem 0 0 1rem;
     padding: .5rem 0 3rem 3rem;
 }
+@media (max-height: 769px) {
+    .fondo {
+        padding: .5rem 0 3rem 0;
+    }
+}
 .fondo h4 {
     font-size: 1rem;
 }
@@ -99,6 +104,11 @@ body {
 .box{
     margin: 0.5rem 7rem;
     padding-top: .5rem;
+}
+@media (max-height: 769px) {
+    .box {
+        margin: 0 2rem;
+    }
 }
 .title{
     text-align: left;
