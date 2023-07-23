@@ -78,6 +78,7 @@ body {
 }
 .users{
     text-decoration: none;
+    font-size: .8rem;
 }
 .fondo
 {
@@ -91,7 +92,7 @@ body {
 }
 @media (max-height: 769px) {
     .fondo {
-        padding: .5rem 0 3rem 0;
+        padding: .5rem 0 3rem .2rem;
     }
 }
 .fondo h4 {
