@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/panelInicio.css">
+    <title>Informacion Personal</title>
+    <input type="hidden" value="2" id="id_card">
+</head>
+<body>    
+    <div class="content-body">
+        <div class="header flex-end">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Logo-utez.png" alt="" class="img-u">
+            <div class="navegation">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon nav" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
+                        <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M17 10h2a2 2 0 0 1 2 2v1" />
+                        <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
+                      </svg>
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon nav" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                        <path d="M16 3l0 4" />
+                        <path d="M8 3l0 4" />
+                        <path d="M4 11l16 0" />
+                        <path d="M8 15h2v2h-2z" />
+                    </svg>
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon nav" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+                    </svg>
+                </p>
+            </div>
+            <button class="btn-blue">Salir</button>
+        </div>
+        <div class="content">
+            <div class="usuarios">
+                <div>
+                    <a href="#" class="users txt-1-white">
+                        Estudiantes
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="#" class=" users txt-1-white">
+                        Consultores
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="users txt-1-white">
+                        Tutores
+                    </a>
+                </div>
+            </div>
+            
+            <div class="fondo d-flex justify-content-evenly">
+              <div class="col-sm-6 mb-3 mb-sm-0 align-self-center ">
+                <div class="card card-uu" id="idCard">
+                
+
+              
+
+
+                    
+                  </div>
+                </div>
+              </div>
+                     
+                         
+            </div>
+
+            
+            
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+  
+      $(function(){
+        contentCard = document.getElementById("idCard");
+        valueCard = document.getElementById("id_card").value;
+
+        switch(valueCard){
+          case'0':
+      
+          contentCard.innerHTML = `<div class="card-body">
+                      <h5 class="card-title " style="text-align: start;">Nombre</h5>
+                      <form action="" >
+                        <div class="input-group input-group-sm mb-3">
+      
+                          <input type="text" class="form-control card-input" id="inputGroup-sizing-sm" placeholder="Alberto">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><img src="Pencil.png" alt="" class="icon"></span>
+                          
+                        </div>
+                      <div class="d-flex justify-content-evenly">
+                        <a href="#" class="btn btn-secondary card-sm-btn">Cancelar</a>
+                        <button type="submit" class="btn btn-green card-sm-btn">Guardar</button>
+                      </div>
+                      </form>
+                   </div>`;
+          break;
+          case'1':
+          contentCard.innerHTML = `<div class="card-body">
+                      <h5 class="card-title " style="text-align: start;">Contraseña</h5>
+                      <form action="" >
+                        <div class="input-group input-group-sm mb-3">
+      
+                          <input type="password" class="form-control card-input" id="inputGroup-sizing-sm" placeholder="********">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><img src="Pencil.png" alt="" class="icon"></span>
+                          
+                        </div>
+                      <div class="d-flex justify-content-evenly">
+                        <a href="#" class="btn btn-secondary card-sm-btn">Cancelar</a>
+                        <button type="submit" class="btn btn-green card-sm-btn">Guardar</button>
+                      </div>
+                      </form>
+                   </div>`;
+          break;
+          case'2':
+          contentCard.innerHTML = `
+          <div class="card-body">
+            <h5 class="card-title " style="text-align: start;">Grupos</h5>
+                   <form action="" >
+                        <div class="input-group input-group-sm mb-3">
+                          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                          <datalist id="datalistOptions">
+                            <option value="3D DSM">
+                            
+                          </datalist>
+                          
+                          
+                        </div>
+                      <div class="d-flex justify-content-evenly">
+                        <a href="#" class="btn btn-secondary card-sm-btn">Cancelar</a>
+                        <button type="submit" class="btn btn-green card-sm-btn">Guardar</button>
+                      </div>
+                   </form>
+           </div>`;
+          break;
+
+        }
+       
+      
+      
+                   console.log(valueCard);
+    })
+    
+    
+    
+    </script>
+</body>
+
+</html>
