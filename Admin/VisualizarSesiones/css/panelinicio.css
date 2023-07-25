@@ -1,0 +1,128 @@
+@font-face
+{
+	font-family: "Asap Condensed";
+	src: url('fonts/AsapCondensed-SemiBold.ttf') format('truetype');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--color-utez-azul);
+}
+.flex-end
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    margin: 1rem;
+}
+.img-u
+{
+    width: 5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.navegation {
+    display: flex;
+    width: 20rem;
+    height: 1.3rem;
+    background-color: var(--color-claro-blanco);
+    justify-content: space-evenly;
+    padding: .2rem;
+    border-radius: 1rem;
+    margin-top: .4rem;
+}
+.nav {
+    cursor: pointer;
+}
+.btn-blue{
+    margin: .5rem 3rem;
+    width: 3rem;
+    height: 1rem;
+    font-size: .4rem;
+    background-color: transparent;
+    
+    text-transform:uppercase;
+    border: var(--color-claro-blanco);
+    border-style:ridge;
+    border-radius: 1rem;
+    color: var(--color-claro-blanco);
+    cursor: pointer;
+}
+.btn-blue:hover {
+    background-color: var(--color-claro-blanco);
+    color: var(--color-utez-azul);
+    border-style: none;
+    transition: 1s;
+}
+.content
+{
+   
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.usuarios {
+    display:block;
+    justify-content: center;
+    margin: 6rem 1rem;
+}
+.user {
+    
+    color: var(--color-claro-blanco);
+    padding: 1rem 0;
+}
+.users{
+    text-decoration: none;
+}
+.fondo
+{
+    background-color: var(--color-claro-blanco);
+    background-size:cover;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem 0 0 1rem;
+    padding: .5rem 0 3rem 3rem;
+}
+@media (max-height: 769px) {
+    .fondo {
+        padding: .5rem 0 3rem 0;
+    }
+}
+.fondo h4 {
+    font-size: 1rem;
+}
+.icon{
+    width: 1rem;
+    height: 1rem;
+}
+.box{
+    margin: 0.5rem 7rem;
+    padding-top: .5rem;
+}
+@media (max-height: 769px) {
+    .box {
+        margin: 0 2rem;
+    }
+}
+.title{
+    text-align: left;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+.fila{
+    font-size: .7rem;
+    text-align: left;
+    padding: 0 0 .2rem 3rem;
+}
+.fila:hover {
+    background-color: #29bb9b4f;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: .5s;
+}
