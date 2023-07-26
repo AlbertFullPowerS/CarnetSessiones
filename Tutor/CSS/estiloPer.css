@@ -223,3 +223,18 @@ h6{
     border-radius: 2rem;   
     /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
 }
+
+.linea{
+    top: 38rem;
+    left: 2.38rem;
+    width: 9.38rem;
+    cursor: pointer;
+    color: var(--utez-azul);
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    border: 1px solid var(--utez-azul);
+    box-sizing: border-box;
+    width: 9.33rem;
+    background-color: #000;
+}
