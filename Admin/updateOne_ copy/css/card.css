@@ -1,0 +1,60 @@
+.card-uu {
+    font-size: .5rem;
+}
+.card-uu h5{
+    font-size: 1rem;
+}
+.card-uu a{
+    font-size: .4rem;
+}
+.card-input{
+    font-size: 10rem;
+    width: 80%;
+}
+.card-padding {
+    margin: .3rem;
+
+}
+.card-padding h5{
+    font-size: .5rem;
+}
+
+
+
+
+
+.input-group-sm>.btn, .input-group-sm>.form-control, .input-group-sm>.form-select, .input-group-sm>.input-group-text {
+    padding: .25rem .5rem;
+    font-size: .475rem;
+    border-radius: var(--bs-border-radius-sm);
+}
+.btn-green{
+    border-radius: .25rem;
+    color: var(--color-claro-blanco);
+    border: none;
+    transition-duration: .2s;
+    padding:  .1rem .7rem ;
+    background: var(--color-utez-verde-claro);
+}
+.btn-green:hover{
+    
+    background-color: var(--color-utez-verde);
+    color: var(--color-claro-blanco);
+    
+}
+
+.btn-secondary{
+   
+    border-radius: 1.5rem;
+    padding:  .1rem .7rem ;
+}
+
+.card-sm-btn{
+    font-size:.4rem ;
+}
+.sm-t a{
+    font-size: .4rem;
+    padding: .2rem .4rem;
+    text-decoration: none;
+    
+  }
