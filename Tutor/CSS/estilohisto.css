@@ -53,13 +53,13 @@ button{
 
 #barraInfo{
     width: 30rem;
-    height: 14.6rem;
+    height: 14.8rem;
     border-radius: 0.4rem;
     background-color: var(--color-claro-blanco);
     padding: 0.1rem;
     padding-left: -5rem;
     float: right; /* Mandar el div a la izquierda o derecha */
-    margin-top: -9.4rem;
+    margin-top: -9.7rem;
 }
 
 .nom{
@@ -116,7 +116,7 @@ button{
 
 .sali{
     padding-left: 35.7rem;
-    margin-top: -21.2rem;
+    margin-top: -21.42rem;
 }
 
 #salir {
